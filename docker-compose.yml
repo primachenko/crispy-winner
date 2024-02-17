@@ -1,0 +1,9 @@
+version: "3.7"
+
+services:
+    tsbot:
+        container_name: tsbot
+        image: tsbot:latest
+        volumes:
+            - ./bot_token.py:/app/bot_token.py
+            - ./resources:/app/resources

@@ -1,0 +1,4 @@
+BOT_CONFIG="bot_token.py"
+VER_MAJ_START="0"
+VER_MIN_START="1"
+UPDATE_FILE="tsbot_latest.tar.gz"

@@ -1,0 +1,6 @@
+*
+!.gitignore
+!resources
+!bot_*.sh
+!config
+!docker-compose.yml
