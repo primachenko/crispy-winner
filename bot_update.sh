@@ -1,5 +1,10 @@
 source config
 
+if ! [[ -f $UPDATE_FILE ]] ; then
+	echo "Update file not found. Exit ..."
+	exit 1
+fi
+
 echo "Extracting ..."
 
 VER=$(docker images | awk '($1 == "tsbot" && $2 != "latest") {print $2 += .1;}' | sort -r | head -1)
