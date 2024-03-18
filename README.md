@@ -8,7 +8,7 @@ sudo apt install git docker.io docker-compose
 ```
 ### Клонирование репозитория управления
 ```
-git clone --branch=main git@github.com:primachenko/crispy-winner.git ~/crispy-winner
+git clone --branch=main https://github.com/primachenko/crispy-winner.git ~/crispy-winner
 cd ~/crispy-winner
 ```
 ### Вызов скрипта для генерации файла с токеном бота
