@@ -5,5 +5,6 @@ services:
         container_name: tsbot
         image: tsbot:latest
         volumes:
+            - ./service-account.json:/app/service-account.json
             - ./bot_token.py:/app/bot_token.py
             - ./resources:/app/resources
