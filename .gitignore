@@ -4,3 +4,4 @@
 !bot_*.sh
 !config
 !docker-compose.yml
+!service-account.json
