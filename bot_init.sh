@@ -11,7 +11,7 @@ read -p "Enter QNAP password: " qnap_password
 
 read -p "Enter Google Tables table name: " google_table_name
 
-echo "SECRET=\"$bot_token\"" >> $BOT_CONFIG
+echo "SECRET=\"$bot_token\"" > $BOT_CONFIG
 echo "CHAT_ID=$techsupport_chat_id" >> $BOT_CONFIG
 echo "MGMT_CHAT_ID=$mgmt_chat_id" >> $BOT_CONFIG
 
