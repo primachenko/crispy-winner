@@ -8,3 +8,5 @@ services:
             - ./service-account.json:/app/service-account.json
             - ./bot_token.py:/app/bot_token.py
             - ./resources:/app/resources
+            - /etc/localtime:/etc/localtime:ro
+            - /etc/timezone:/etc/timezone:ro
