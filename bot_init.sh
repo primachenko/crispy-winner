@@ -13,6 +13,7 @@ read -p "Enter Google Tables users table name: " google_users_table_name
 read -p "Enter Google Tables schedule table name: " google_schedule_table_name
 read -p "Enter Google Tables decoder table name: " google_decoder_table_name
 read -p "Enter Google Tables partlist table name: " google_partlist_table_name
+read -p "Enter Google Tables guides table name: " google_guide_table_name
 
 echo "SECRET=\"$bot_token\"" > $BOT_CONFIG
 echo "CHAT_ID=$techsupport_chat_id" >> $BOT_CONFIG
@@ -27,3 +28,4 @@ echo "GOOGLE_USERS_TABLE_NAME=\"$google_users_table_name\"" >> $BOT_CONFIG
 echo "GOOGLE_SCHEDULE_TABLE_NAME=\"$google_schedule_table_name\"" >> $BOT_CONFIG
 echo "GOOGLE_DECODER_TABLE_NAME=\"$google_decoder_table_name\"" >> $BOT_CONFIG
 echo "GOOGLE_PARTLIST_TABLE_NAME=\"$google_partlist_table_name\"" >> $BOT_CONFIG
+echo "GOOGLE_GUIDE_TABLE_NAME=\"$google_guide_table_name\"" >> $BOT_CONFIG
